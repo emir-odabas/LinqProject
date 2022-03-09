@@ -23,22 +23,6 @@ namespace LinqProject
                 new Product{ProductId=5,CategoryId=2,ProductName="Apple Telefon",QuantityPerUnit="4 GB Ram",UnitPrice=8500,UnitInStock=0},
             };
             
-            //Test(products);
-
-            // GetProducts(products);
-
-            //AnyTest(products);
-
-            //FindTest(products);
-
-            //FindAllTest(products);
-
-            //OrderByDescending azalan OrderBy artan  ThenByDescending eşitlik varsa başka bir  gore sırala
-            //AsdDescTest(products);
-
-            //ClassicLinqTest(products);
-
-            //productlardaki her bir p ile categorieslerdeki her bir c yi yan yana getir
 
             var result = from p in products
                          join c in cateogries
@@ -151,10 +135,6 @@ namespace LinqProject
 
             public decimal UnitPrice { get; set; }
         }
-
-
-
-
 
 
 
