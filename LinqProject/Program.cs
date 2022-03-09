@@ -8,7 +8,7 @@ namespace LinqProject
     {
         static void Main(string[] args)
         {
-            List<Category> cateogries = new List<Category>
+            List<Category> categories = new List<Category>
             {
                 new Category{CategoryId=1,CategoryName="Computer"},
                 new Category{CategoryId=2,CategoryName="Phone"},
