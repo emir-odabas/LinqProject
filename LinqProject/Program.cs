@@ -19,8 +19,8 @@ namespace LinqProject
                 new Product{ProductId=1,CategoryId=1,ProductName="Acer Laptop",QuantityPerUnit="32 GB Ram",UnitPrice=10000,UnitInStock=5},
                 new Product{ProductId=2,CategoryId=1,ProductName="Asus Laptop",QuantityPerUnit="16 GB Ram",UnitPrice=8000,UnitInStock=3},
                 new Product{ProductId=3,CategoryId=1,ProductName="HP Laptop",QuantityPerUnit="8 GB Ram",UnitPrice=9000,UnitInStock=2},
-                new Product{ProductId=4,CategoryId=2,ProductName="Samsung Telefon",QuantityPerUnit="4 GB Ram",UnitPrice=5000,UnitInStock=15},
-                new Product{ProductId=5,CategoryId=2,ProductName="Apple Telefon",QuantityPerUnit="4 GB Ram",UnitPrice=8500,UnitInStock=0},
+                new Product{ProductId=4,CategoryId=2,ProductName="Samsung Phone",QuantityPerUnit="4 GB Ram",UnitPrice=5000,UnitInStock=15},
+                new Product{ProductId=5,CategoryId=2,ProductName="Apple Phone",QuantityPerUnit="4 GB Ram",UnitPrice=8500,UnitInStock=0},
             };
             
 
