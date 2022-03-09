@@ -33,7 +33,7 @@ namespace LinqProject
 
             //FindAllTest(products);
 
-            //OrderByDescending azalan OrderBy artan  ThenByDescending eşitlik varsa başka bir özellüge gore sırala
+            //OrderByDescending azalan OrderBy artan  ThenByDescending eşitlik varsa başka bir  gore sırala
             //AsdDescTest(products);
 
             //ClassicLinqTest(products);
