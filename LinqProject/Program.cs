@@ -81,7 +81,7 @@ namespace LinqProject
         
         private static void Test(List<Product> products)
         {
-            Console.WriteLine("Algoritmik------------");
+            Console.WriteLine("algorithmic------------");
 
             foreach (var product in products)
             {
@@ -102,7 +102,7 @@ namespace LinqProject
             }
         }
 
-        // LİNQ YOKKEN
+        //without linq
         static List<Product> GetProducts(List<Product> products)
         {
             List<Product> filteredProducts = new List<Product>();
@@ -116,10 +116,9 @@ namespace LinqProject
             return filteredProducts;
         }
 
-        // LİNQ VARKEN
+        // with linq
         static List<Product> GetProductsLinq(List<Product> products)
         {
-            //Where komutu bir array olduğu için ToList() dersek düzelir
             return products.Where(product => product.UnitPrice > 5000 && product.UnitInStock > 3).ToList();
         }
 
