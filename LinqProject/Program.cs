@@ -25,7 +25,7 @@ namespace LinqProject
             
 
             var result = from p in products
-                         join c in cateogries
+                         join c in categories
                          on p.CategoryId equals c.CategoryId
                          where p.UnitPrice>5000
                          orderby p.UnitPrice descending
